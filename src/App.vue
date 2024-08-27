@@ -1,18 +1,29 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
+<!--
+ * @Author: Micro-Organism
+ * @Date: 2024/8/27 09:35
+ * @FilePath: src\App.vue
+ * @Email: coolrabbit1993@gmail.com
+ * @Description: 程序入口
+-->
 <template>
+<!--  <div>-->
+<!--    <a href="https://vitejs.dev" target="_blank">-->
+<!--      <img src="/vite.svg" class="logo" alt="Vite logo" />-->
+<!--    </a>-->
+<!--    <a href="https://vuejs.org/" target="_blank">-->
+<!--      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />-->
+<!--    </a>-->
+<!--  </div>-->
+<!--  <HelloWorld msg="Vite + Vue" />-->
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <overview />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
+
+<script setup lang="ts">
+import HelloWorld from '@/views/zero/HelloWorld.vue';
+import Overview from '@/views/element/basic/Overview.vue';
+</script>
 
 <style scoped>
 .logo {
