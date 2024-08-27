@@ -1,0 +1,6 @@
+/dist/*
+/zero-vue3-ts/public/*
+public/*
+/dist*
+/zero-vue3-ts/src/types/env.d.ts
+/docs/**/*

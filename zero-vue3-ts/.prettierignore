@@ -1,0 +1,11 @@
+/node_modules/**
+/dist/
+/dist*
+/zero-vue3-ts/public/*
+/docs/*
+/zero-vue3-ts/vite.config.ts
+/zero-vue3-ts/src/types/env.d.ts
+/zero-vue3-ts/src/types/auto-components.d.ts
+/zero-vue3-ts/src/types/auto-imports.d.ts
+/docs/**/*
+CHANGELOG

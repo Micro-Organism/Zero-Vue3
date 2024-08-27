@@ -1,8 +1,8 @@
 {
   "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    { "path": "./tsconfig.app.json"},
+    { "path": "./tsconfig.node.json"}
   ],
   "compilerOptions": {
     "target": "esnext",
@@ -41,8 +41,10 @@
   "include": [
     "src",
     "types/**/*.d.ts",
-    "src/types/auto-imports.d.ts",
-    "src/types/auto-components.d.ts"
+    "zero-vue3-ts/src/types/auto-imports.d.ts",
+    "zero-vue3-ts/src/types/auto-components.d.ts"
   ],
-  "exclude": ["dist", "target", "node_modules"]
+  "exclude": ["dist", "target",
+    "../node_modules"
+  ]
 }

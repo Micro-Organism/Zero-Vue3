@@ -1,8 +1,8 @@
-/build/
+/zero-vue3-ts/build/
 /config/
 /dist/
 /*.js
 /test/unit/coverage/
 /node_modules/*
 /dist*
-/src/main.ts
+/zero-vue3-ts/src/main.ts
